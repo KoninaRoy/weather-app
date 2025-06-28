@@ -1,0 +1,55 @@
+body {
+  font-family: Arial, sans-serif;
+  background: url('https://images.unsplash.com/photo-1708552592233-5934a64eaec0?fm=jpg&q=60&w=3000&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8Y2xvdWR5JTIwd2VhdGhlcnxlbnwwfHwwfHx8MA%3D%3D') no-repeat center center fixed;
+  background-size: cover;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  margin-top: 100px;
+  background: rgba(255, 255, 255, 0.8);
+  display: inline-block;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+input {
+  padding: 10px;
+  font-size: 16px;
+  border-radius: 5px;
+  border: none;
+  margin-right: 10px;
+}
+
+button {
+  padding: 10px 15px;
+  font-size: 16px;
+  background-color: #333;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+}
+
+#weatherResult {
+  margin-top: 20px;
+}
+
+#weatherResult img {
+  width: 100px;
+  height: 100px;
+}
+
+.forecast-day {
+  display: inline-block;
+  background: rgba(255, 255, 255, 0.8);
+  margin: 10px;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.forecast-day img {
+  width: 50px;
+  height: 50px;
+}
